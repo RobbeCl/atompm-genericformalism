@@ -1,0 +1,432 @@
+{
+	"types": {
+		"__p__pClassA": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "__pLabel",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__p__pClassB": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "__pLabel",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__p__pObjectA": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "__pLabel",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__p__pObjectB": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "__pLabel",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__p__pOjbectAinstanceOfClassA": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "__pLabel",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__p__pOjbectBinstanceOfClassB": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "__pLabel",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__p__pAHasAB": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "__pLabel",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		]
+	},
+	"constraints": [],
+	"actions": [
+		{
+			"name": "distinctPLabels",
+			"event": "post-create",
+			"code": "/* comment next line to enable this action */\nthrow \"IgnoredConstraint\"\nif( getAttr(\"__pLabel\") == \"\" )\n{\n\tvar pLabels = getAllNodes().\n\t\t\t\t\t\t\tfilter( function(n) {return hasAttr(\"__pLabel\",n);} ).\n\t\t\t\t\t\t\t\tmap( function(n) {return getAttr(\"__pLabel\",n);} ),\n\t\t i\t\t\t= \"0\";\n\n\twhile( _utils.contains(pLabels,i) )\n\t\ti = String(parseInt(i)+1);\n\tsetAttr(\"__pLabel\",i);\n}",
+			"targetType": "__p*"
+		},
+		{
+			"name": "distinctPLabels",
+			"event": "post-create",
+			"code": "if( getAttr(\"__pLabel\") == \"\" )\n{\n\tvar pLabels = getAllNodes().\n\t\t\t\t\t\t\tfilter( function(n) {return hasAttr(\"__pLabel\",n);} ).\n\t\t\t\t\t\t\t\tmap( function(n) {return getAttr(\"__pLabel\",n);} ),\n\t\t i\t\t\t= \"0\";\n\n\twhile( _utils.contains(pLabels,i) )\n\t\ti = String(parseInt(i)+1);\n\tsetAttr(\"__pLabel\",i);\n}",
+			"targetType": "*"
+		}
+	],
+	"cardinalities": {
+		"__p__pClassA": [
+			{
+				"dir": "out",
+				"type": "__p__pAHasAB",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "__p__pOjbectAinstanceOfClassA",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__p__pClassB": [
+			{
+				"dir": "in",
+				"type": "__p__pAHasAB",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "__p__pOjbectBinstanceOfClassB",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__p__pObjectA": [
+			{
+				"dir": "out",
+				"type": "__p__pOjbectAinstanceOfClassA",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__p__pObjectB": [
+			{
+				"dir": "out",
+				"type": "__p__pOjbectBinstanceOfClassB",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__p__pOjbectAinstanceOfClassA": [
+			{
+				"dir": "in",
+				"type": "__p__pObjectA",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__p__pClassA",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__p__pOjbectBinstanceOfClassB": [
+			{
+				"dir": "in",
+				"type": "__p__pObjectB",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__p__pClassB",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__p__pAHasAB": [
+			{
+				"dir": "in",
+				"type": "__p__pClassA",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__p__pClassB",
+				"min": 0,
+				"max": "1"
+			}
+		]
+	},
+	"legalConnections": {
+		"__p__pClassA": {
+			"__p__pClassB": [
+				"__p__pAHasAB"
+			]
+		},
+		"__p__pObjectA": {
+			"__p__pClassA": [
+				"__p__pOjbectAinstanceOfClassA"
+			]
+		},
+		"__p__pObjectB": {
+			"__p__pClassB": [
+				"__p__pOjbectBinstanceOfClassB"
+			]
+		}
+	},
+	"connectorTypes": {
+		"__p__pOjbectAinstanceOfClassA": "visual",
+		"__p__pOjbectBinstanceOfClassB": "visual",
+		"__p__pAHasAB": "visual"
+	},
+	"types2parentTypes": {
+		"__p__pClassA": [],
+		"__p__pClassB": [],
+		"__p__pObjectA": [],
+		"__p__pObjectB": [],
+		"__p__pOjbectAinstanceOfClassA": [],
+		"__p__pOjbectBinstanceOfClassB": [],
+		"__p__pAHasAB": []
+	}
+}

@@ -1,9 +1,164 @@
 {
-	"types": {},
+	"types": {
+		"ClassA": [],
+		"ClassB": [],
+		"ObjectA": [],
+		"ObjectB": [],
+		"OjbectAinstanceOfClassA": [],
+		"OjbectBinstanceOfClassB": [],
+		"AHasABClass": [],
+		"AHasABObject": []
+	},
 	"constraints": [],
 	"actions": [],
-	"cardinalities": {},
-	"legalConnections": {},
-	"connectorTypes": {},
-	"types2parentTypes": {}
+	"cardinalities": {
+		"ClassA": [
+			{
+				"dir": "out",
+				"type": "AHasABClass",
+				"min": "1",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "OjbectAinstanceOfClassA",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"ClassB": [
+			{
+				"dir": "in",
+				"type": "AHasABClass",
+				"min": "1",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "OjbectBinstanceOfClassB",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"ObjectA": [
+			{
+				"dir": "out",
+				"type": "AHasABObject",
+				"min": "1",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "OjbectAinstanceOfClassA",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"ObjectB": [
+			{
+				"dir": "in",
+				"type": "AHasABObject",
+				"min": "1",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "OjbectBinstanceOfClassB",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"OjbectAinstanceOfClassA": [
+			{
+				"dir": "in",
+				"type": "ObjectA",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "ClassA",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"OjbectBinstanceOfClassB": [
+			{
+				"dir": "in",
+				"type": "ObjectB",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "ClassB",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"AHasABClass": [
+			{
+				"dir": "in",
+				"type": "ClassA",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "ClassB",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"AHasABObject": [
+			{
+				"dir": "in",
+				"type": "ObjectA",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "ObjectB",
+				"min": "0",
+				"max": "1"
+			}
+		]
+	},
+	"legalConnections": {
+		"ClassA": {
+			"ClassB": [
+				"AHasABClass"
+			]
+		},
+		"ObjectA": {
+			"ObjectB": [
+				"AHasABObject"
+			],
+			"ClassA": [
+				"OjbectAinstanceOfClassA"
+			]
+		},
+		"ObjectB": {
+			"ClassB": [
+				"OjbectBinstanceOfClassB"
+			]
+		}
+	},
+	"connectorTypes": {
+		"OjbectAinstanceOfClassA": "visual",
+		"OjbectBinstanceOfClassB": "visual",
+		"AHasABClass": "visual",
+		"AHasABObject": "visual"
+	},
+	"types2parentTypes": {
+		"ClassA": [],
+		"ClassB": [],
+		"ObjectA": [],
+		"ObjectB": [],
+		"OjbectAinstanceOfClassA": [],
+		"OjbectBinstanceOfClassB": [],
+		"AHasABClass": [],
+		"AHasABObject": []
+	}
 }

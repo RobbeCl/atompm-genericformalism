@@ -1,6 +1,6 @@
 {
 	"types": {
-		"ClassAIcon": [
+		"__pClassAIcon": [
 			{
 				"name": "typename",
 				"type": "string",
@@ -30,12 +30,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "$contents",
@@ -70,11 +70,11 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"parser": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
 							"position": {
@@ -95,6 +95,48 @@
 									1
 								]
 							}
+						},
+						"__pLabelText": {
+							"position": {
+								"type": "list<double>",
+								"value": [
+									0,
+									0
+								]
+							},
+							"orientation": {
+								"type": "double",
+								"value": 0
+							},
+							"scale": {
+								"type": "list<double>",
+								"value": [
+									1,
+									1
+								]
+							},
+							"textContent": {
+								"type": "string",
+								"value": "#"
+							},
+							"style": {
+								"type": "map<string,string>",
+								"value": {
+									"stroke": "#6000ff",
+									"fill": "#6000ff",
+									"font-size": "15px",
+									"opacity": "1"
+								}
+							},
+							"mapper": {
+								"type": "code",
+								"value": "({'textContent':getAttr('__pLabel')})"
+							},
+							"parser": {
+								"type": "code",
+								"value": "({'__pLabel':getAttr('textContent')})"
+							},
+							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 						}
 					},
 					"edges": []
@@ -106,7 +148,7 @@
 				"default": "-1"
 			}
 		],
-		"ClassBIcon": [
+		"__pClassBIcon": [
 			{
 				"name": "typename",
 				"type": "string",
@@ -136,12 +178,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "$contents",
@@ -176,11 +218,11 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"parser": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
 							"position": {
@@ -201,6 +243,48 @@
 									1
 								]
 							}
+						},
+						"__pLabelText": {
+							"position": {
+								"type": "list<double>",
+								"value": [
+									0,
+									0
+								]
+							},
+							"orientation": {
+								"type": "double",
+								"value": 0
+							},
+							"scale": {
+								"type": "list<double>",
+								"value": [
+									1,
+									1
+								]
+							},
+							"textContent": {
+								"type": "string",
+								"value": "#"
+							},
+							"style": {
+								"type": "map<string,string>",
+								"value": {
+									"stroke": "#6000ff",
+									"fill": "#6000ff",
+									"font-size": "15px",
+									"opacity": "1"
+								}
+							},
+							"mapper": {
+								"type": "code",
+								"value": "({'textContent':getAttr('__pLabel')})"
+							},
+							"parser": {
+								"type": "code",
+								"value": "({'__pLabel':getAttr('textContent')})"
+							},
+							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 						}
 					},
 					"edges": []
@@ -212,7 +296,7 @@
 				"default": "-1"
 			}
 		],
-		"ObjectAIcon": [
+		"__pObjectAIcon": [
 			{
 				"name": "typename",
 				"type": "string",
@@ -242,12 +326,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "$contents",
@@ -282,11 +366,11 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"parser": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
 							"position": {
@@ -307,6 +391,48 @@
 									1
 								]
 							}
+						},
+						"__pLabelText": {
+							"position": {
+								"type": "list<double>",
+								"value": [
+									0,
+									0
+								]
+							},
+							"orientation": {
+								"type": "double",
+								"value": 0
+							},
+							"scale": {
+								"type": "list<double>",
+								"value": [
+									1,
+									1
+								]
+							},
+							"textContent": {
+								"type": "string",
+								"value": "#"
+							},
+							"style": {
+								"type": "map<string,string>",
+								"value": {
+									"stroke": "#6000ff",
+									"fill": "#6000ff",
+									"font-size": "15px",
+									"opacity": "1"
+								}
+							},
+							"mapper": {
+								"type": "code",
+								"value": "({'textContent':getAttr('__pLabel')})"
+							},
+							"parser": {
+								"type": "code",
+								"value": "({'__pLabel':getAttr('textContent')})"
+							},
+							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 						}
 					},
 					"edges": []
@@ -318,7 +444,7 @@
 				"default": "-1"
 			}
 		],
-		"ObjectBIcon": [
+		"__pObjectBIcon": [
 			{
 				"name": "typename",
 				"type": "string",
@@ -348,12 +474,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "$contents",
@@ -388,11 +514,11 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"parser": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
 							"position": {
@@ -413,6 +539,48 @@
 									1
 								]
 							}
+						},
+						"__pLabelText": {
+							"position": {
+								"type": "list<double>",
+								"value": [
+									0,
+									0
+								]
+							},
+							"orientation": {
+								"type": "double",
+								"value": 0
+							},
+							"scale": {
+								"type": "list<double>",
+								"value": [
+									1,
+									1
+								]
+							},
+							"textContent": {
+								"type": "string",
+								"value": "#"
+							},
+							"style": {
+								"type": "map<string,string>",
+								"value": {
+									"stroke": "#6000ff",
+									"fill": "#6000ff",
+									"font-size": "15px",
+									"opacity": "1"
+								}
+							},
+							"mapper": {
+								"type": "code",
+								"value": "({'textContent':getAttr('__pLabel')})"
+							},
+							"parser": {
+								"type": "code",
+								"value": "({'__pLabel':getAttr('textContent')})"
+							},
+							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 						}
 					},
 					"edges": []
@@ -424,7 +592,7 @@
 				"default": "-1"
 			}
 		],
-		"OjbectAinstanceOfClassALink": [
+		"__pOjbectAinstanceOfClassALink": [
 			{
 				"name": "link-style",
 				"type": "map<string,string>",
@@ -474,12 +642,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "$contents",
@@ -502,11 +670,11 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": ""
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"parser": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
 							"position": {
@@ -534,6 +702,48 @@
 									"yoffset": -4
 								}
 							}
+						},
+						"__pLabelText": {
+							"position": {
+								"type": "list<double>",
+								"value": [
+									0,
+									0
+								]
+							},
+							"orientation": {
+								"type": "double",
+								"value": 0
+							},
+							"scale": {
+								"type": "list<double>",
+								"value": [
+									1,
+									1
+								]
+							},
+							"textContent": {
+								"type": "string",
+								"value": "#"
+							},
+							"style": {
+								"type": "map<string,string>",
+								"value": {
+									"stroke": "#6000ff",
+									"fill": "#6000ff",
+									"font-size": "15px",
+									"opacity": "1"
+								}
+							},
+							"mapper": {
+								"type": "code",
+								"value": "({'textContent':getAttr('__pLabel')})"
+							},
+							"parser": {
+								"type": "code",
+								"value": "({'__pLabel':getAttr('textContent')})"
+							},
+							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 						}
 					},
 					"edges": []
@@ -550,7 +760,7 @@
 				"default": {}
 			}
 		],
-		"OjbectBinstanceOfClassBLink": [
+		"__pOjbectBinstanceOfClassBLink": [
 			{
 				"name": "link-style",
 				"type": "map<string,string>",
@@ -600,12 +810,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "$contents",
@@ -628,11 +838,11 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": ""
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"parser": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
 							"position": {
@@ -660,6 +870,48 @@
 									"yoffset": -4
 								}
 							}
+						},
+						"__pLabelText": {
+							"position": {
+								"type": "list<double>",
+								"value": [
+									0,
+									0
+								]
+							},
+							"orientation": {
+								"type": "double",
+								"value": 0
+							},
+							"scale": {
+								"type": "list<double>",
+								"value": [
+									1,
+									1
+								]
+							},
+							"textContent": {
+								"type": "string",
+								"value": "#"
+							},
+							"style": {
+								"type": "map<string,string>",
+								"value": {
+									"stroke": "#6000ff",
+									"fill": "#6000ff",
+									"font-size": "15px",
+									"opacity": "1"
+								}
+							},
+							"mapper": {
+								"type": "code",
+								"value": "({'textContent':getAttr('__pLabel')})"
+							},
+							"parser": {
+								"type": "code",
+								"value": "({'__pLabel':getAttr('textContent')})"
+							},
+							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 						}
 					},
 					"edges": []
@@ -676,7 +928,7 @@
 				"default": {}
 			}
 		],
-		"AHasABClassLink": [
+		"__pAHasABClassLink": [
 			{
 				"name": "link-style",
 				"type": "map<string,string>",
@@ -726,12 +978,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "$contents",
@@ -754,11 +1006,11 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": ""
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"parser": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
 							"position": {
@@ -786,6 +1038,48 @@
 									"yoffset": -4
 								}
 							}
+						},
+						"__pLabelText": {
+							"position": {
+								"type": "list<double>",
+								"value": [
+									0,
+									0
+								]
+							},
+							"orientation": {
+								"type": "double",
+								"value": 0
+							},
+							"scale": {
+								"type": "list<double>",
+								"value": [
+									1,
+									1
+								]
+							},
+							"textContent": {
+								"type": "string",
+								"value": "#"
+							},
+							"style": {
+								"type": "map<string,string>",
+								"value": {
+									"stroke": "#6000ff",
+									"fill": "#6000ff",
+									"font-size": "15px",
+									"opacity": "1"
+								}
+							},
+							"mapper": {
+								"type": "code",
+								"value": "({'textContent':getAttr('__pLabel')})"
+							},
+							"parser": {
+								"type": "code",
+								"value": "({'__pLabel':getAttr('textContent')})"
+							},
+							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 						}
 					},
 					"edges": []
@@ -802,7 +1096,7 @@
 				"default": {}
 			}
 		],
-		"AHasABObjectLink": [
+		"__pAHasABObjectLink": [
 			{
 				"name": "link-style",
 				"type": "map<string,string>",
@@ -852,12 +1146,12 @@
 			{
 				"name": "mapper",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "parser",
 				"type": "code",
-				"default": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				"default": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 			},
 			{
 				"name": "$contents",
@@ -880,11 +1174,11 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": ""
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"parser": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								"value": "/* mapping and parsing code is disabled by default because pattern attribute values are code */"
 							},
 							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
 							"position": {
@@ -912,6 +1206,48 @@
 									"yoffset": -4
 								}
 							}
+						},
+						"__pLabelText": {
+							"position": {
+								"type": "list<double>",
+								"value": [
+									0,
+									0
+								]
+							},
+							"orientation": {
+								"type": "double",
+								"value": 0
+							},
+							"scale": {
+								"type": "list<double>",
+								"value": [
+									1,
+									1
+								]
+							},
+							"textContent": {
+								"type": "string",
+								"value": "#"
+							},
+							"style": {
+								"type": "map<string,string>",
+								"value": {
+									"stroke": "#6000ff",
+									"fill": "#6000ff",
+									"font-size": "15px",
+									"opacity": "1"
+								}
+							},
+							"mapper": {
+								"type": "code",
+								"value": "({'textContent':getAttr('__pLabel')})"
+							},
+							"parser": {
+								"type": "code",
+								"value": "({'__pLabel':getAttr('textContent')})"
+							},
+							"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text"
 						}
 					},
 					"edges": []
@@ -932,25 +1268,25 @@
 	"constraints": [],
 	"actions": [],
 	"cardinalities": {
-		"ClassAIcon": [],
-		"ClassBIcon": [],
-		"ObjectAIcon": [],
-		"ObjectBIcon": [],
-		"OjbectAinstanceOfClassALink": [],
-		"OjbectBinstanceOfClassBLink": [],
-		"AHasABClassLink": [],
-		"AHasABObjectLink": []
+		"__pClassAIcon": [],
+		"__pClassBIcon": [],
+		"__pObjectAIcon": [],
+		"__pObjectBIcon": [],
+		"__pOjbectAinstanceOfClassALink": [],
+		"__pOjbectBinstanceOfClassBLink": [],
+		"__pAHasABClassLink": [],
+		"__pAHasABObjectLink": []
 	},
 	"legalConnections": {},
 	"connectorTypes": {},
 	"types2parentTypes": {
-		"ClassAIcon": [],
-		"ClassBIcon": [],
-		"ObjectAIcon": [],
-		"ObjectBIcon": [],
-		"OjbectAinstanceOfClassALink": [],
-		"OjbectBinstanceOfClassBLink": [],
-		"AHasABClassLink": [],
-		"AHasABObjectLink": []
+		"__pClassAIcon": [],
+		"__pClassBIcon": [],
+		"__pObjectAIcon": [],
+		"__pObjectBIcon": [],
+		"__pOjbectAinstanceOfClassALink": [],
+		"__pOjbectBinstanceOfClassBLink": [],
+		"__pAHasABClassLink": [],
+		"__pAHasABObjectLink": []
 	}
 }

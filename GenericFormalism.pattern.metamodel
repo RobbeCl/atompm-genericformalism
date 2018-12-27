@@ -1,0 +1,339 @@
+{
+	"types": {
+		"__pClassA": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			}
+		],
+		"__pClassB": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			}
+		],
+		"__pObjectA": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			}
+		],
+		"__pObjectB": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			}
+		],
+		"__pOjbectAinstanceOfClassA": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			}
+		],
+		"__pOjbectBinstanceOfClassB": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			}
+		],
+		"__pAHasABClass": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			}
+		],
+		"__pAHasABObject": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			}
+		]
+	},
+	"constraints": [],
+	"actions": [
+		{
+			"name": "distinctPLabels",
+			"event": "post-create",
+			"code": "if( getAttr(\"__pLabel\") == \"\" )\n{\n\tvar pLabels = getAllNodes().\n\t\t\t\t\t\t\tfilter( function(n) {return hasAttr(\"__pLabel\",n);} ).\n\t\t\t\t\t\t\t\tmap( function(n) {return getAttr(\"__pLabel\",n);} ),\n\t\t i\t\t\t= \"0\";\n\n\twhile( _utils.contains(pLabels,i) )\n\t\ti = String(parseInt(i)+1);\n\tsetAttr(\"__pLabel\",i);\n}",
+			"targetType": "*"
+		}
+	],
+	"cardinalities": {
+		"__pClassA": [
+			{
+				"dir": "out",
+				"type": "__pAHasABClass",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "__pOjbectAinstanceOfClassA",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pClassB": [
+			{
+				"dir": "in",
+				"type": "__pAHasABClass",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "__pOjbectBinstanceOfClassB",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pObjectA": [
+			{
+				"dir": "out",
+				"type": "__pAHasABObject",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pOjbectAinstanceOfClassA",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pObjectB": [
+			{
+				"dir": "in",
+				"type": "__pAHasABObject",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pOjbectBinstanceOfClassB",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pOjbectAinstanceOfClassA": [
+			{
+				"dir": "in",
+				"type": "__pObjectA",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pClassA",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pOjbectBinstanceOfClassB": [
+			{
+				"dir": "in",
+				"type": "__pObjectB",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pClassB",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pAHasABClass": [
+			{
+				"dir": "in",
+				"type": "__pClassA",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pClassB",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pAHasABObject": [
+			{
+				"dir": "in",
+				"type": "__pObjectA",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pObjectB",
+				"min": 0,
+				"max": "1"
+			}
+		]
+	},
+	"legalConnections": {
+		"__pClassA": {
+			"__pClassB": [
+				"__pAHasABClass"
+			]
+		},
+		"__pObjectA": {
+			"__pObjectB": [
+				"__pAHasABObject"
+			],
+			"__pClassA": [
+				"__pOjbectAinstanceOfClassA"
+			]
+		},
+		"__pObjectB": {
+			"__pClassB": [
+				"__pOjbectBinstanceOfClassB"
+			]
+		}
+	},
+	"connectorTypes": {
+		"__pOjbectAinstanceOfClassA": "visual",
+		"__pOjbectBinstanceOfClassB": "visual",
+		"__pAHasABClass": "visual",
+		"__pAHasABObject": "visual"
+	},
+	"types2parentTypes": {
+		"__pClassA": [],
+		"__pClassB": [],
+		"__pObjectA": [],
+		"__pObjectB": [],
+		"__pOjbectAinstanceOfClassA": [],
+		"__pOjbectBinstanceOfClassB": [],
+		"__pAHasABClass": [],
+		"__pAHasABObject": []
+	}
+}

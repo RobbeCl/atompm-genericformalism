@@ -1,164 +1,280 @@
 {
 	"types": {
-		"ClassA": [],
-		"ClassB": [],
-		"ObjectA": [],
-		"ObjectB": [],
-		"OjbectAinstanceOfClassA": [],
-		"OjbectBinstanceOfClassB": [],
-		"AHasABClass": [],
-		"AHasABObject": []
+		"Class": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"Object": [],
+		"ClassRelationship": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"TargetClass": [],
+		"SourceClass": [],
+		"InstanceOfClass": [],
+		"ObjectRelationship": [],
+		"InstanceOfRelationship": [],
+		"TargetObject": [],
+		"SourceObject": [],
+		"ClassRelationConstraint": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": ""
+			}
+		],
+		"ConstraintClass": []
 	},
 	"constraints": [],
 	"actions": [],
 	"cardinalities": {
-		"ClassA": [
+		"Class": [
 			{
-				"dir": "out",
-				"type": "AHasABClass",
-				"min": "1",
-				"max": "1"
+				"dir": "in",
+				"type": "TargetClass",
+				"min": "0",
+				"max": "Infinity"
 			},
 			{
 				"dir": "in",
-				"type": "OjbectAinstanceOfClassA",
+				"type": "SourceClass",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "InstanceOfClass",
 				"min": "0",
 				"max": "Infinity"
 			}
 		],
-		"ClassB": [
+		"Object": [
 			{
-				"dir": "in",
-				"type": "AHasABClass",
-				"min": "1",
-				"max": "1"
+				"dir": "out",
+				"type": "InstanceOfClass",
+				"min": "0",
+				"max": "Infinity"
 			},
 			{
 				"dir": "in",
-				"type": "OjbectBinstanceOfClassB",
+				"type": "TargetObject",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "SourceObject",
 				"min": "0",
 				"max": "Infinity"
 			}
 		],
-		"ObjectA": [
+		"ClassRelationship": [
 			{
 				"dir": "out",
-				"type": "AHasABObject",
-				"min": "1",
-				"max": "1"
+				"type": "TargetClass",
+				"min": "0",
+				"max": "Infinity"
 			},
 			{
 				"dir": "out",
-				"type": "OjbectAinstanceOfClassA",
+				"type": "SourceClass",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "InstanceOfRelationship",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "ConstraintClass",
 				"min": "0",
 				"max": "Infinity"
 			}
 		],
-		"ObjectB": [
+		"TargetClass": [
 			{
 				"dir": "in",
-				"type": "AHasABObject",
-				"min": "1",
+				"type": "ClassRelationship",
+				"min": "0",
 				"max": "1"
 			},
 			{
 				"dir": "out",
-				"type": "OjbectBinstanceOfClassB",
+				"type": "Class",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"SourceClass": [
+			{
+				"dir": "in",
+				"type": "ClassRelationship",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Class",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"InstanceOfClass": [
+			{
+				"dir": "in",
+				"type": "Object",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Class",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"ObjectRelationship": [
+			{
+				"dir": "out",
+				"type": "InstanceOfRelationship",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "TargetObject",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "SourceObject",
 				"min": "0",
 				"max": "Infinity"
 			}
 		],
-		"OjbectAinstanceOfClassA": [
+		"InstanceOfRelationship": [
 			{
 				"dir": "in",
-				"type": "ObjectA",
+				"type": "ObjectRelationship",
 				"min": "0",
 				"max": "1"
 			},
 			{
 				"dir": "out",
-				"type": "ClassA",
+				"type": "ClassRelationship",
 				"min": "0",
 				"max": "1"
 			}
 		],
-		"OjbectBinstanceOfClassB": [
+		"TargetObject": [
 			{
 				"dir": "in",
-				"type": "ObjectB",
+				"type": "ObjectRelationship",
 				"min": "0",
 				"max": "1"
 			},
 			{
 				"dir": "out",
-				"type": "ClassB",
+				"type": "Object",
 				"min": "0",
 				"max": "1"
 			}
 		],
-		"AHasABClass": [
+		"SourceObject": [
 			{
 				"dir": "in",
-				"type": "ClassA",
+				"type": "ObjectRelationship",
 				"min": "0",
 				"max": "1"
 			},
 			{
 				"dir": "out",
-				"type": "ClassB",
+				"type": "Object",
 				"min": "0",
 				"max": "1"
 			}
 		],
-		"AHasABObject": [
+		"ClassRelationConstraint": [
+			{
+				"dir": "out",
+				"type": "ConstraintClass",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"ConstraintClass": [
 			{
 				"dir": "in",
-				"type": "ObjectA",
+				"type": "ClassRelationConstraint",
 				"min": "0",
 				"max": "1"
 			},
 			{
 				"dir": "out",
-				"type": "ObjectB",
+				"type": "ClassRelationship",
 				"min": "0",
 				"max": "1"
 			}
 		]
 	},
 	"legalConnections": {
-		"ClassA": {
-			"ClassB": [
-				"AHasABClass"
+		"Object": {
+			"Class": [
+				"InstanceOfClass"
 			]
 		},
-		"ObjectA": {
-			"ObjectB": [
-				"AHasABObject"
+		"ClassRelationship": {
+			"Class": [
+				"TargetClass",
+				"SourceClass"
+			]
+		},
+		"ObjectRelationship": {
+			"ClassRelationship": [
+				"InstanceOfRelationship"
 			],
-			"ClassA": [
-				"OjbectAinstanceOfClassA"
+			"Object": [
+				"TargetObject",
+				"SourceObject"
 			]
 		},
-		"ObjectB": {
-			"ClassB": [
-				"OjbectBinstanceOfClassB"
+		"ClassRelationConstraint": {
+			"ClassRelationship": [
+				"ConstraintClass"
 			]
 		}
 	},
 	"connectorTypes": {
-		"OjbectAinstanceOfClassA": "visual",
-		"OjbectBinstanceOfClassB": "visual",
-		"AHasABClass": "visual",
-		"AHasABObject": "visual"
+		"TargetClass": "visual",
+		"SourceClass": "visual",
+		"InstanceOfClass": "visual",
+		"InstanceOfRelationship": "visual",
+		"TargetObject": "visual",
+		"SourceObject": "visual",
+		"ConstraintClass": "visual"
 	},
 	"types2parentTypes": {
-		"ClassA": [],
-		"ClassB": [],
-		"ObjectA": [],
-		"ObjectB": [],
-		"OjbectAinstanceOfClassA": [],
-		"OjbectBinstanceOfClassB": [],
-		"AHasABClass": [],
-		"AHasABObject": []
+		"Class": [],
+		"Object": [],
+		"ClassRelationship": [],
+		"TargetClass": [],
+		"SourceClass": [],
+		"InstanceOfClass": [],
+		"ObjectRelationship": [],
+		"InstanceOfRelationship": [],
+		"TargetObject": [],
+		"SourceObject": [],
+		"ClassRelationConstraint": [],
+		"ConstraintClass": []
 	}
 }

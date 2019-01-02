@@ -1,6 +1,33 @@
 {
 	"types": {
-		"__pClassA": [
+		"__pClass": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pObject": [
 			{
 				"name": "__pLabel",
 				"type": "string",
@@ -22,7 +49,34 @@
 				"default": true
 			}
 		],
-		"__pClassB": [
+		"__pClassRelationship": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pTargetClass": [
 			{
 				"name": "__pLabel",
 				"type": "string",
@@ -44,7 +98,7 @@
 				"default": true
 			}
 		],
-		"__pObjectA": [
+		"__pSourceClass": [
 			{
 				"name": "__pLabel",
 				"type": "string",
@@ -66,7 +120,7 @@
 				"default": true
 			}
 		],
-		"__pObjectB": [
+		"__pInstanceOfClass": [
 			{
 				"name": "__pLabel",
 				"type": "string",
@@ -88,7 +142,7 @@
 				"default": true
 			}
 		],
-		"__pOjbectAinstanceOfClassA": [
+		"__pObjectRelationship": [
 			{
 				"name": "__pLabel",
 				"type": "string",
@@ -110,7 +164,7 @@
 				"default": true
 			}
 		],
-		"__pOjbectBinstanceOfClassB": [
+		"__pInstanceOfRelationship": [
 			{
 				"name": "__pLabel",
 				"type": "string",
@@ -132,7 +186,7 @@
 				"default": true
 			}
 		],
-		"__pAHasABClass": [
+		"__pTargetObject": [
 			{
 				"name": "__pLabel",
 				"type": "string",
@@ -154,7 +208,56 @@
 				"default": true
 			}
 		],
-		"__pAHasABObject": [
+		"__pSourceObject": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			}
+		],
+		"__pClassRelationConstraint": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pConstraintClass": [
 			{
 				"name": "__pLabel",
 				"type": "string",
@@ -187,153 +290,247 @@
 		}
 	],
 	"cardinalities": {
-		"__pClassA": [
+		"__pClass": [
 			{
-				"dir": "out",
-				"type": "__pAHasABClass",
+				"dir": "in",
+				"type": "__pTargetClass",
 				"min": 0,
-				"max": "1"
+				"max": "Infinity"
 			},
 			{
 				"dir": "in",
-				"type": "__pOjbectAinstanceOfClassA",
+				"type": "__pSourceClass",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pInstanceOfClass",
 				"min": 0,
 				"max": "Infinity"
 			}
 		],
-		"__pClassB": [
+		"__pObject": [
 			{
-				"dir": "in",
-				"type": "__pAHasABClass",
+				"dir": "out",
+				"type": "__pInstanceOfClass",
 				"min": 0,
-				"max": "1"
+				"max": "Infinity"
 			},
 			{
 				"dir": "in",
-				"type": "__pOjbectBinstanceOfClassB",
+				"type": "__pTargetObject",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pSourceObject",
 				"min": 0,
 				"max": "Infinity"
 			}
 		],
-		"__pObjectA": [
+		"__pClassRelationship": [
 			{
 				"dir": "out",
-				"type": "__pAHasABObject",
+				"type": "__pTargetClass",
 				"min": 0,
-				"max": "1"
+				"max": "Infinity"
 			},
 			{
 				"dir": "out",
-				"type": "__pOjbectAinstanceOfClassA",
+				"type": "__pSourceClass",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pInstanceOfRelationship",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pConstraintClass",
 				"min": 0,
 				"max": "Infinity"
 			}
 		],
-		"__pObjectB": [
+		"__pTargetClass": [
 			{
 				"dir": "in",
-				"type": "__pAHasABObject",
+				"type": "__pClassRelationship",
 				"min": 0,
 				"max": "1"
 			},
 			{
 				"dir": "out",
-				"type": "__pOjbectBinstanceOfClassB",
+				"type": "__pClass",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pSourceClass": [
+			{
+				"dir": "in",
+				"type": "__pClassRelationship",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pClass",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pInstanceOfClass": [
+			{
+				"dir": "in",
+				"type": "__pObject",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pClass",
+				"min": 0,
+				"max": "1"
+			}
+		],
+		"__pObjectRelationship": [
+			{
+				"dir": "out",
+				"type": "__pInstanceOfRelationship",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__pTargetObject",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "__pSourceObject",
 				"min": 0,
 				"max": "Infinity"
 			}
 		],
-		"__pOjbectAinstanceOfClassA": [
+		"__pInstanceOfRelationship": [
 			{
 				"dir": "in",
-				"type": "__pObjectA",
+				"type": "__pObjectRelationship",
 				"min": 0,
 				"max": "1"
 			},
 			{
 				"dir": "out",
-				"type": "__pClassA",
+				"type": "__pClassRelationship",
 				"min": 0,
 				"max": "1"
 			}
 		],
-		"__pOjbectBinstanceOfClassB": [
+		"__pTargetObject": [
 			{
 				"dir": "in",
-				"type": "__pObjectB",
+				"type": "__pObjectRelationship",
 				"min": 0,
 				"max": "1"
 			},
 			{
 				"dir": "out",
-				"type": "__pClassB",
+				"type": "__pObject",
 				"min": 0,
 				"max": "1"
 			}
 		],
-		"__pAHasABClass": [
+		"__pSourceObject": [
 			{
 				"dir": "in",
-				"type": "__pClassA",
+				"type": "__pObjectRelationship",
 				"min": 0,
 				"max": "1"
 			},
 			{
 				"dir": "out",
-				"type": "__pClassB",
+				"type": "__pObject",
 				"min": 0,
 				"max": "1"
 			}
 		],
-		"__pAHasABObject": [
+		"__pClassRelationConstraint": [
+			{
+				"dir": "out",
+				"type": "__pConstraintClass",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pConstraintClass": [
 			{
 				"dir": "in",
-				"type": "__pObjectA",
+				"type": "__pClassRelationConstraint",
 				"min": 0,
 				"max": "1"
 			},
 			{
 				"dir": "out",
-				"type": "__pObjectB",
+				"type": "__pClassRelationship",
 				"min": 0,
 				"max": "1"
 			}
 		]
 	},
 	"legalConnections": {
-		"__pClassA": {
-			"__pClassB": [
-				"__pAHasABClass"
+		"__pObject": {
+			"__pClass": [
+				"__pInstanceOfClass"
 			]
 		},
-		"__pObjectA": {
-			"__pObjectB": [
-				"__pAHasABObject"
+		"__pClassRelationship": {
+			"__pClass": [
+				"__pTargetClass",
+				"__pSourceClass"
+			]
+		},
+		"__pObjectRelationship": {
+			"__pClassRelationship": [
+				"__pInstanceOfRelationship"
 			],
-			"__pClassA": [
-				"__pOjbectAinstanceOfClassA"
+			"__pObject": [
+				"__pTargetObject",
+				"__pSourceObject"
 			]
 		},
-		"__pObjectB": {
-			"__pClassB": [
-				"__pOjbectBinstanceOfClassB"
+		"__pClassRelationConstraint": {
+			"__pClassRelationship": [
+				"__pConstraintClass"
 			]
 		}
 	},
 	"connectorTypes": {
-		"__pOjbectAinstanceOfClassA": "visual",
-		"__pOjbectBinstanceOfClassB": "visual",
-		"__pAHasABClass": "visual",
-		"__pAHasABObject": "visual"
+		"__pTargetClass": "visual",
+		"__pSourceClass": "visual",
+		"__pInstanceOfClass": "visual",
+		"__pInstanceOfRelationship": "visual",
+		"__pTargetObject": "visual",
+		"__pSourceObject": "visual",
+		"__pConstraintClass": "visual"
 	},
 	"types2parentTypes": {
-		"__pClassA": [],
-		"__pClassB": [],
-		"__pObjectA": [],
-		"__pObjectB": [],
-		"__pOjbectAinstanceOfClassA": [],
-		"__pOjbectBinstanceOfClassB": [],
-		"__pAHasABClass": [],
-		"__pAHasABObject": []
+		"__pClass": [],
+		"__pObject": [],
+		"__pClassRelationship": [],
+		"__pTargetClass": [],
+		"__pSourceClass": [],
+		"__pInstanceOfClass": [],
+		"__pObjectRelationship": [],
+		"__pInstanceOfRelationship": [],
+		"__pTargetObject": [],
+		"__pSourceObject": [],
+		"__pClassRelationConstraint": [],
+		"__pConstraintClass": []
 	}
 }

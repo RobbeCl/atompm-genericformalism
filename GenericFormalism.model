@@ -183,7 +183,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": "+ name : string"
+									"value": "+ name : string\n+ id : integer"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -534,7 +534,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": ""
+									"value": "+ id : integer"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -711,8 +711,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						450,
-						500
+						446,
+						497
 					]
 				},
 				"orientation": {
@@ -885,7 +885,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": "+ name : string"
+									"value": "+ name : string\n+ minSource : float = -1\n+ maxSource : float = -1\n+ minTarget : float = -1\n+ maxTarget : float = -1\n+ id : integer"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -1138,13 +1138,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-28.5,0%",
-										"0;15.672127215261582,0%"
+										"0;-29.329113012444623,0%",
+										"0;12.043822799727081,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-90"
+									"value": "0;-86.3380644244802"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -1193,13 +1193,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-25.5,0%",
-										"0;57.46324632504218,0%"
+										"0;-28.945887872893763,0%",
+										"0;53.02683189105795,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-90"
+									"value": "0;-86.3380644244802"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -1332,7 +1332,7 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/10.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/11.instance": "M640,511L640,445.5",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/10.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/11.instance": "M636,508L640,445.5",
 						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/11.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/8.instance": "M640,445.499076923077L640,380.0009150981877"
 					}
 				},
@@ -1422,13 +1422,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-28.5,0%",
-										"0;15.911385789997382,0%"
+										"0;-29.331971632921125,0%",
+										"0;12.31080057351744,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-90"
+									"value": "0;-86.39557946082431"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -1477,13 +1477,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-25.5,0%",
-										"0;58.340546095160846,0%"
+										"0;-28.947678614249185,0%",
+										"0;53.929543544111425,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-90"
+									"value": "0;-86.39557946082431"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -1616,7 +1616,7 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/10.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/13.instance": "M500,509L500,442.5",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/10.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/13.instance": "M496,506L500,442.5",
 						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/13.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/8.instance": "M500.00000000000006,442.49909090909097L500,376.0009013511222"
 					}
 				},
@@ -2088,7 +2088,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": ""
+									"value": "+ id : integer"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -2341,7 +2341,7 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;25.24254747473549,0%",
+										"0;23.705446367530612,0%",
 										"0;28.5,0%"
 									]
 								},
@@ -2396,7 +2396,7 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;92.55524959269928,0%",
+										"0;92.30733005927914,0%",
 										"0;25.5,0%"
 									]
 								},
@@ -2451,13 +2451,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-105.49943163900173,-100%",
-										"0;23.5,1.2246467991473532e-14%"
+										"0;-110.14302909479511,-99.96249023216637%",
+										"0;20.491185204559088,-2.7387125778439705%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;180"
+									"value": "0;-178.43063705352833"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -2501,13 +2501,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-105.49943163900173,-100%",
-										"0;8,1.2246467991473532e-14%"
+										"0;-109.7185286452293,-99.96249023216637%",
+										"0;4.9969992185733645,-2.7387125778439705%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;180"
+									"value": "0;-178.43063705352833"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -2536,7 +2536,7 @@
 					"type": "map<string,list<string>>",
 					"value": {
 						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/15.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/16.instance": "M838,579L732.5,579",
-						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/16.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/10.instance": "M732.4994285714286,579L627.0005683609983,579"
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/16.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/10.instance": "M732.4994285714286,579L623.0005683609983,576"
 					}
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink"
@@ -3291,7 +3291,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": "+ name : string"
+									"value": "+ name : string\n+ id : integer"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -3544,7 +3544,7 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-14.595465748207403,0%",
+										"0;-16.086929330900603,0%",
 										"0;-28.5,0%"
 									]
 								},
@@ -3599,7 +3599,7 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-53.515397701323764,0%",
+										"0;-53.75595634369364,0%",
 										"0;-25.5,0%"
 									]
 								},
@@ -3654,13 +3654,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;60.99901746842244,100%",
-										"0;-23.5,0%"
+										"0;55.763863658017044,99.86177817799823%",
+										"0;-26.467517871829614,-5.255973661299779%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;-3.0128393420105435"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3704,13 +3704,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;60.99901746842244,100%",
-										"0;-8,0%"
+										"0;56.578539575518505,99.86177817799823%",
+										"0;-10.988942254239873,-5.255973661299779%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;-3.0128393420105435"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3739,7 +3739,7 @@
 					"type": "map<string,list<string>>",
 					"value": {
 						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/25.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/26.instance": "M340,553L401,553",
-						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/26.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/10.instance": "M401.0009917355371,553L461.99901746842244,553"
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/26.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/10.instance": "M401.0009917355371,553L457.9990174684225,550"
 					}
 				},
 				"$type": "/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink"
@@ -3764,6 +3764,11 @@
 							"name": "name",
 							"type": "string",
 							"default": ""
+						},
+						{
+							"name": "id",
+							"type": "integer",
+							"default": 0
 						}
 					]
 				},
@@ -3792,7 +3797,13 @@
 				},
 				"attributes": {
 					"type": "list<$ATTRIBUTE>",
-					"value": []
+					"value": [
+						{
+							"name": "id",
+							"type": "integer",
+							"default": 0
+						}
+					]
 				},
 				"constraints": {
 					"type": "list<$EVENT_HANDLER>",
@@ -3824,6 +3835,31 @@
 							"name": "name",
 							"type": "string",
 							"default": ""
+						},
+						{
+							"name": "minSource",
+							"type": "float",
+							"default": -1
+						},
+						{
+							"name": "maxSource",
+							"type": "float",
+							"default": -1
+						},
+						{
+							"name": "minTarget",
+							"type": "float",
+							"default": -1
+						},
+						{
+							"name": "maxTarget",
+							"type": "float",
+							"default": -1
+						},
+						{
+							"name": "id",
+							"type": "integer",
+							"default": 0
 						}
 					]
 				},
@@ -3933,7 +3969,13 @@
 				},
 				"attributes": {
 					"type": "list<$ATTRIBUTE>",
-					"value": []
+					"value": [
+						{
+							"name": "id",
+							"type": "integer",
+							"default": 0
+						}
+					]
 				},
 				"constraints": {
 					"type": "list<$EVENT_HANDLER>",
@@ -3960,7 +4002,13 @@
 				},
 				"attributes": {
 					"type": "list<$ATTRIBUTE>",
-					"value": []
+					"value": [
+						{
+							"name": "id",
+							"type": "integer",
+							"default": 0
+						}
+					]
 				},
 				"constraints": {
 					"type": "list<$EVENT_HANDLER>",
@@ -4046,6 +4094,11 @@
 							"name": "name",
 							"type": "string",
 							"default": ""
+						},
+						{
+							"name": "id",
+							"type": "integer",
+							"default": 0
 						}
 					]
 				},

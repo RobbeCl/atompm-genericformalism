@@ -5,21 +5,69 @@
 				"name": "name",
 				"type": "string",
 				"default": ""
+			},
+			{
+				"name": "id",
+				"type": "integer",
+				"default": 0
 			}
 		],
-		"Object": [],
+		"Object": [
+			{
+				"name": "id",
+				"type": "integer",
+				"default": 0
+			}
+		],
 		"ClassRelationship": [
 			{
 				"name": "name",
 				"type": "string",
 				"default": ""
+			},
+			{
+				"name": "minSource",
+				"type": "float",
+				"default": -1
+			},
+			{
+				"name": "maxSource",
+				"type": "float",
+				"default": -1
+			},
+			{
+				"name": "minTarget",
+				"type": "float",
+				"default": -1
+			},
+			{
+				"name": "maxTarget",
+				"type": "float",
+				"default": -1
+			},
+			{
+				"name": "id",
+				"type": "integer",
+				"default": 0
 			}
 		],
 		"TargetClass": [],
 		"SourceClass": [],
 		"InstanceOfClass": [],
-		"ObjectRelationship": [],
-		"InstanceOfRelationship": [],
+		"ObjectRelationship": [
+			{
+				"name": "id",
+				"type": "integer",
+				"default": 0
+			}
+		],
+		"InstanceOfRelationship": [
+			{
+				"name": "id",
+				"type": "integer",
+				"default": 0
+			}
+		],
 		"TargetObject": [],
 		"SourceObject": [],
 		"ClassRelationConstraint": [
@@ -27,6 +75,11 @@
 				"name": "name",
 				"type": "string",
 				"default": ""
+			},
+			{
+				"name": "id",
+				"type": "integer",
+				"default": 0
 			}
 		],
 		"ConstraintClass": []

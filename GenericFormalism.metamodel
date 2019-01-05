@@ -70,12 +70,7 @@
 		],
 		"TargetObject": [],
 		"SourceObject": [],
-		"ClassRelationConstraint": [
-			{
-				"name": "name",
-				"type": "string",
-				"default": ""
-			},
+		"ClassQuantityConstraint": [
 			{
 				"name": "id",
 				"type": "integer",
@@ -257,7 +252,7 @@
 				"max": "1"
 			}
 		],
-		"ClassRelationConstraint": [
+		"ClassQuantityConstraint": [
 			{
 				"dir": "out",
 				"type": "ConstraintClass",
@@ -268,7 +263,7 @@
 		"ConstraintClass": [
 			{
 				"dir": "in",
-				"type": "ClassRelationConstraint",
+				"type": "ClassQuantityConstraint",
 				"min": "0",
 				"max": "1"
 			},
@@ -301,7 +296,7 @@
 				"SourceObject"
 			]
 		},
-		"ClassRelationConstraint": {
+		"ClassQuantityConstraint": {
 			"ClassRelationship": [
 				"ConstraintClass"
 			]
@@ -327,7 +322,7 @@
 		"InstanceOfRelationship": [],
 		"TargetObject": [],
 		"SourceObject": [],
-		"ClassRelationConstraint": [],
+		"ClassQuantityConstraint": [],
 		"ConstraintClass": []
 	}
 }

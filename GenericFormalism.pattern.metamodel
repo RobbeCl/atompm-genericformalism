@@ -275,7 +275,7 @@
 				"default": true
 			}
 		],
-		"__pClassRelationConstraint": [
+		"__pClassQuantityConstraint": [
 			{
 				"name": "__pLabel",
 				"type": "string",
@@ -295,11 +295,6 @@
 				"name": "__pMatchSubtypes",
 				"type": "boolean",
 				"default": true
-			},
-			{
-				"name": "name",
-				"type": "code",
-				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			},
 			{
 				"name": "id",
@@ -510,7 +505,7 @@
 				"max": "1"
 			}
 		],
-		"__pClassRelationConstraint": [
+		"__pClassQuantityConstraint": [
 			{
 				"dir": "out",
 				"type": "__pConstraintClass",
@@ -521,7 +516,7 @@
 		"__pConstraintClass": [
 			{
 				"dir": "in",
-				"type": "__pClassRelationConstraint",
+				"type": "__pClassQuantityConstraint",
 				"min": 0,
 				"max": "1"
 			},
@@ -554,7 +549,7 @@
 				"__pSourceObject"
 			]
 		},
-		"__pClassRelationConstraint": {
+		"__pClassQuantityConstraint": {
 			"__pClassRelationship": [
 				"__pConstraintClass"
 			]
@@ -580,7 +575,7 @@
 		"__pInstanceOfRelationship": [],
 		"__pTargetObject": [],
 		"__pSourceObject": [],
-		"__pClassRelationConstraint": [],
+		"__pClassQuantityConstraint": [],
 		"__pConstraintClass": []
 	}
 }

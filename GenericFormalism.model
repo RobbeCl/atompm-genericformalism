@@ -3244,7 +3244,7 @@
 							"98": {
 								"textContent": {
 									"type": "string",
-									"value": "ClassRelationConstraint"
+									"value": "ClassQuantityConstraint"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -3291,7 +3291,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": "+ name : string\n+ id : integer"
+									"value": "+ id : integer"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -4085,16 +4085,11 @@
 			"25": {
 				"name": {
 					"type": "string",
-					"value": "ClassRelationConstraint"
+					"value": "ClassQuantityConstraint"
 				},
 				"attributes": {
 					"type": "list<$ATTRIBUTE>",
 					"value": [
-						{
-							"name": "name",
-							"type": "string",
-							"default": ""
-						},
 						{
 							"name": "id",
 							"type": "integer",

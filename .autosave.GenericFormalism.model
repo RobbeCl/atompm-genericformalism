@@ -3117,8 +3117,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						150,
-						500
+						146,
+						497
 					]
 				},
 				"orientation": {
@@ -3244,7 +3244,7 @@
 							"98": {
 								"textContent": {
 									"type": "string",
-									"value": "ClassRelationConstraint"
+									"value": "ClassQuantityConstraint"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -3291,7 +3291,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": "+ name : string\n+ id : integer"
+									"value": "+ id : integer"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -3544,13 +3544,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-16.086929330900603,0%",
-										"0;-28.5,0%"
+										"0;-17.2745579458811,0%",
+										"0;-29.32762617118999,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;2.642545294064724"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3599,13 +3599,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-53.75595634369364,0%",
-										"0;-25.5,0%"
+										"0;-56.338609708618094,0%",
+										"0;-28.12738883993211,0%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0"
+									"value": "0;2.642545294064724"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3738,7 +3738,7 @@
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/25.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/26.instance": "M340,553L401,553",
+						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/25.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/26.instance": "M336,550L401,553",
 						"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/AssociationLink/26.instance--/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons/ClassIcon/10.instance": "M401.0009917355371,553L457.9990174684225,550"
 					}
 				},
@@ -4085,16 +4085,11 @@
 			"25": {
 				"name": {
 					"type": "string",
-					"value": "ClassRelationConstraint"
+					"value": "ClassQuantityConstraint"
 				},
 				"attributes": {
 					"type": "list<$ATTRIBUTE>",
 					"value": [
-						{
-							"name": "name",
-							"type": "string",
-							"default": ""
-						},
 						{
 							"name": "id",
 							"type": "integer",

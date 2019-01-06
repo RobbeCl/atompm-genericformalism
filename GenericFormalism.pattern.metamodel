@@ -323,6 +323,55 @@
 				"type": "boolean",
 				"default": true
 			}
+		],
+		"__pandRelationship": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"name": "id",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			}
+		],
+		"__pandRelationshipLink": [
+			{
+				"name": "__pLabel",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotIn",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pPivotOut",
+				"type": "string",
+				"default": ""
+			},
+			{
+				"name": "__pMatchSubtypes",
+				"type": "boolean",
+				"default": true
+			}
 		]
 	},
 	"constraints": [],
@@ -397,6 +446,12 @@
 			{
 				"dir": "in",
 				"type": "__pConstraintClass",
+				"min": 0,
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "__pandRelationshipLink",
 				"min": 0,
 				"max": "Infinity"
 			}
@@ -526,6 +581,28 @@
 				"min": 0,
 				"max": "1"
 			}
+		],
+		"__pandRelationship": [
+			{
+				"dir": "out",
+				"type": "__pandRelationshipLink",
+				"min": 0,
+				"max": "Infinity"
+			}
+		],
+		"__pandRelationshipLink": [
+			{
+				"dir": "in",
+				"type": "__pandRelationship",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pClassRelationship",
+				"min": 0,
+				"max": "1"
+			}
 		]
 	},
 	"legalConnections": {
@@ -553,6 +630,11 @@
 			"__pClassRelationship": [
 				"__pConstraintClass"
 			]
+		},
+		"__pandRelationship": {
+			"__pClassRelationship": [
+				"__pandRelationshipLink"
+			]
 		}
 	},
 	"connectorTypes": {
@@ -562,7 +644,8 @@
 		"__pInstanceOfRelationship": "visual",
 		"__pTargetObject": "visual",
 		"__pSourceObject": "visual",
-		"__pConstraintClass": "visual"
+		"__pConstraintClass": "visual",
+		"__pandRelationshipLink": "visual"
 	},
 	"types2parentTypes": {
 		"__pClass": [],
@@ -576,6 +659,8 @@
 		"__pTargetObject": [],
 		"__pSourceObject": [],
 		"__pClassQuantityConstraint": [],
-		"__pConstraintClass": []
+		"__pConstraintClass": [],
+		"__pandRelationship": [],
+		"__pandRelationshipLink": []
 	}
 }

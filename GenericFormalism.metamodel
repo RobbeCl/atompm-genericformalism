@@ -77,7 +77,15 @@
 				"default": 0
 			}
 		],
-		"ConstraintClass": []
+		"ConstraintClass": [],
+		"andRelationship": [
+			{
+				"name": "id",
+				"type": "integer",
+				"default": 0
+			}
+		],
+		"andRelationshipLink": []
 	},
 	"constraints": [],
 	"actions": [],
@@ -144,6 +152,12 @@
 			{
 				"dir": "in",
 				"type": "ConstraintClass",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "andRelationshipLink",
 				"min": "0",
 				"max": "Infinity"
 			}
@@ -273,6 +287,28 @@
 				"min": "0",
 				"max": "1"
 			}
+		],
+		"andRelationship": [
+			{
+				"dir": "out",
+				"type": "andRelationshipLink",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"andRelationshipLink": [
+			{
+				"dir": "in",
+				"type": "andRelationship",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "ClassRelationship",
+				"min": "0",
+				"max": "1"
+			}
 		]
 	},
 	"legalConnections": {
@@ -300,6 +336,11 @@
 			"ClassRelationship": [
 				"ConstraintClass"
 			]
+		},
+		"andRelationship": {
+			"ClassRelationship": [
+				"andRelationshipLink"
+			]
 		}
 	},
 	"connectorTypes": {
@@ -309,7 +350,8 @@
 		"InstanceOfRelationship": "visual",
 		"TargetObject": "visual",
 		"SourceObject": "visual",
-		"ConstraintClass": "visual"
+		"ConstraintClass": "visual",
+		"andRelationshipLink": "visual"
 	},
 	"types2parentTypes": {
 		"Class": [],
@@ -323,6 +365,8 @@
 		"TargetObject": [],
 		"SourceObject": [],
 		"ClassQuantityConstraint": [],
-		"ConstraintClass": []
+		"ConstraintClass": [],
+		"andRelationship": [],
+		"andRelationshipLink": []
 	}
 }

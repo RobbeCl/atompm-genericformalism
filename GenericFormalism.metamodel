@@ -10,6 +10,11 @@
 				"name": "id",
 				"type": "integer",
 				"default": 0
+			},
+			{
+				"name": "singleton",
+				"type": "boolean",
+				"default": false
 			}
 		],
 		"Object": [

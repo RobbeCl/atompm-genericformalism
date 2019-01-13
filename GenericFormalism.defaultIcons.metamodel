@@ -10,8 +10,8 @@
 				"name": "position",
 				"type": "list<double>",
 				"default": [
-					300,
-					175
+					280,
+					154
 				]
 			},
 			{
@@ -58,7 +58,7 @@
 							"style": {
 								"type": "map<string,string>",
 								"value": {
-									"stroke": "#000000",
+									"stroke": "#ffffff",
 									"stroke-dasharray": "",
 									"fill": "#000000",
 									"fill-opacity": 1,
@@ -70,7 +70,7 @@
 							},
 							"mapper": {
 								"type": "code",
-								"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */\nvar style = {\n   \"stroke\": \"#ffffff\",\n   \"stroke-dasharray\": \"\",\n   \"fill\": \"#000000\",\n   \"fill-opacity\": 1,\n   \"font-size\": \"20px\",\n   \"stroke-width\": 1,\n   \"arrow-start\": \"none\",\n   \"arrow-end\": \"none\"\n};\n\nif (getAttr(\"singleton\")) {\n   style[\"stroke\"] = \"#ff0000\";\n}\n\n\n({'style':style})"
 							},
 							"parser": {
 								"type": "code",
@@ -80,8 +80,8 @@
 							"position": {
 								"type": "list<double>",
 								"value": [
-									3,
-									1
+									4,
+									3
 								]
 							},
 							"orientation": {
@@ -126,8 +126,8 @@
 							"position": {
 								"type": "list<double>",
 								"value": [
-									6,
-									112
+									8,
+									111
 								]
 							},
 							"orientation": {

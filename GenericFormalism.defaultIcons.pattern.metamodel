@@ -10,8 +10,8 @@
 				"name": "position",
 				"type": "list<double>",
 				"default": [
-					300,
-					175
+					280,
+					154
 				]
 			},
 			{
@@ -58,7 +58,7 @@
 							"style": {
 								"type": "map<string,string>",
 								"value": {
-									"stroke": "#000000",
+									"stroke": "#ffffff",
 									"stroke-dasharray": "",
 									"fill": "#000000",
 									"fill-opacity": 1,
@@ -80,8 +80,8 @@
 							"position": {
 								"type": "list<double>",
 								"value": [
-									3,
-									1
+									20,
+									20
 								]
 							},
 							"orientation": {
@@ -126,8 +126,8 @@
 							"position": {
 								"type": "list<double>",
 								"value": [
-									6,
-									112
+									26,
+									133
 								]
 							},
 							"orientation": {

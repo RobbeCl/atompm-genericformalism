@@ -183,7 +183,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": "+ name : string\n+ id : integer"
+									"value": "+ name : string\n+ id : integer\n+ singleton : boolean"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -4404,6 +4404,11 @@
 							"name": "id",
 							"type": "integer",
 							"default": 0
+						},
+						{
+							"name": "singleton",
+							"type": "boolean",
+							"default": false
 						}
 					]
 				},

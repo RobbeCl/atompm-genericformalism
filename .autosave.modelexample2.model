@@ -1,7 +1,7 @@
 {
 	"csm": {
 		"nodes": {
-			"8": {
+			"59": {
 				"typename": {
 					"type": "string",
 					"value": "ClassIcon"
@@ -9,153 +9,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						471,
-						197
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"5": {
-								"width": {
-									"type": "double",
-									"value": 100
-								},
-								"height": {
-									"type": "double",
-									"value": 100
-								},
-								"cornerRadius": {
-									"type": "double",
-									"value": 5
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#ff0000",
-										"stroke-dasharray": "",
-										"fill": "#000000",
-										"fill-opacity": 1,
-										"font-size": "20px",
-										"stroke-width": 1,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */\nvar style = {\n   \"stroke\": \"#ffffff\",\n   \"stroke-dasharray\": \"\",\n   \"fill\": \"#000000\",\n   \"fill-opacity\": 1,\n   \"font-size\": \"20px\",\n   \"stroke-width\": 1,\n   \"arrow-start\": \"none\",\n   \"arrow-end\": \"none\"\n};\n\nif (getAttr(\"singleton\")) {\n   style[\"stroke\"] = \"#ff0000\";\n}\n\n\n({'style':style})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										4,
-										3
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							},
-							"53": {
-								"textContent": {
-									"type": "string",
-									"value": "Floor"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#000000",
-										"fill-opacity": 1,
-										"font-size": "20px",
-										"stroke-width": 1,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */\n({textContent: getAttr(\"name\")})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										8,
-										111
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/Class/8.instance"
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon"
-			},
-			"9": {
-				"typename": {
-					"type": "string",
-					"value": "ClassIcon"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						846,
-						197
+						821,
+						249
 					]
 				},
 				"orientation": {
@@ -238,7 +93,7 @@
 							"53": {
 								"textContent": {
 									"type": "string",
-									"value": "Room"
+									"value": ""
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -287,11 +142,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/Class/9.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/Class/59.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon"
 			},
-			"10": {
+			"60": {
 				"typename": {
 					"type": "string",
 					"value": "ClassIcon"
@@ -299,8 +154,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1246,
-						197
+						1199,
+						239
 					]
 				},
 				"orientation": {
@@ -383,7 +238,7 @@
 							"53": {
 								"textContent": {
 									"type": "string",
-									"value": "Cell"
+									"value": ""
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -432,11 +287,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/Class/10.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/Class/60.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon"
 			},
-			"12": {
+			"61": {
 				"typename": {
 					"type": "string",
 					"value": "ClassRelationshipIcon"
@@ -444,8 +299,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1050,
-						200
+						1026,
+						276
 					]
 				},
 				"orientation": {
@@ -569,37 +424,20 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/ClassRelationship/12.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/ClassRelationship/61.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon"
 			},
-			"15": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
+			"62": {
 				"typename": {
 					"type": "string",
-					"value": "SourceClassLink"
+					"value": "ClassQuantityConstraintIcon"
 				},
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1206.5,
-						264
+						1048,
+						109
 					]
 				},
 				"orientation": {
@@ -624,24 +462,186 @@
 				"$contents": {
 					"type": "map<string,*>",
 					"value": {
-						"nodes": {},
+						"nodes": {
+							"57": {
+								"r": {
+									"type": "double",
+									"value": 50
+								},
+								"sides": {
+									"type": "int",
+									"value": 5
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#000000",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Polygon",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							}
+						},
 						"edges": []
 					}
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceClass/15.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/ClassQuantityConstraint/62.instance"
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassQuantityConstraintIcon"
+			},
+			"63": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "ConstraintClassLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						1075,
+						233.5
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;1.998501679477613,-2.757571634832109%",
+										"0;72.6094760401852,99.96197176265967%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;91.58017247280009"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/ConstraintClass/63.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/12.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceClassLink/15.instance": "M1133,264L1206.5,264",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceClassLink/15.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/10.instance": "M1206.5008219178083,264.00000000000006L1279.9991844139015,264"
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassQuantityConstraintIcon/62.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ConstraintClassLink/63.instance": "M1077,161L1075,233.5",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ConstraintClassLink/63.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/61.instance": "M1074.9958734865502,233.64958611255676L1073.0000228089712,305.9991731747919"
 					}
 				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceClassLink"
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ConstraintClassLink"
 			},
-			"16": {
+			"64": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -666,8 +666,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						981,
-						265
+						964,
+						318.5
 					]
 				},
 				"orientation": {
@@ -719,13 +719,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-79.99925062499995,-100%",
-										"0;4.000000000000057,5.6655388976479795e-14%"
+										"0;-76.49536042989541,-99.22778767136677%",
+										"0;-5.530791179587652,-12.403473458920839%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;179.99999999999997"
+									"value": "0;-172.8749836510982"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -748,155 +748,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetClass/16.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetClass/64.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/12.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetClassLink/16.instance": "M1061,265L981,265",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetClassLink/16.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/9.instance": "M980.9992452830188,265L901.000749375,265.00000000000006"
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/61.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetClassLink/64.instance": "M1040,328L964,318.5",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetClassLink/64.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/59.instance": "M963.8513700701177,318.4814212587646L888.0007785084614,309.00009731355766"
 					}
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetClassLink"
 			},
-			"25": {
-				"typename": {
-					"type": "string",
-					"value": "ClassRelationshipIcon"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						650,
-						200
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"40": {
-								"r": {
-									"type": "double",
-									"value": 50
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#000000",
-										"fill-opacity": 1,
-										"font-size": "20px",
-										"stroke-width": 1,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Circle",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										5,
-										6
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							},
-							"51": {
-								"textContent": {
-									"type": "string",
-									"value": ""
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#000000",
-										"fill-opacity": 1,
-										"font-size": "20px",
-										"stroke-width": 1,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */\n({textContent: getAttr(\"name\")})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										35,
-										114
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/ClassRelationship/25.instance"
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon"
-			},
-			"26": {
+			"65": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -921,8 +784,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						809.5,
-						261
+						1163.6409088992157,
+						323.44696976911246
 					]
 				},
 				"orientation": {
@@ -953,136 +816,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceClass/26.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceClass/65.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/25.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceClassLink/26.instance": "M742,261L809.5,261",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceClassLink/26.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/9.instance": "M809.5008955223881,260.99999999999994L876.9991119890261,261"
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/61.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceClassLink/65.instance": "M1117,341L1163.6409088992157,323.44696976911246",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceClassLink/65.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/60.instance": "M1163.570312189223,323.47353842341084L1209.9997155268634,306.0001070597826"
 					}
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceClassLink"
 			},
-			"27": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "TargetClassLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						608,
-						257
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;-49.99970020000001,-100%",
-										"0;4,1.2246467991473532e-14%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;180"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetClass/27.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/25.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetClassLink/27.instance": "M658,257L608,257",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetClassLink/27.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/8.instance": "M607.923636390025,257L558.0002998,257"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetClassLink"
-			},
-			"28": {
+			"85": {
 				"typename": {
 					"type": "string",
 					"value": "ObjectIcon"
@@ -1090,8 +835,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1258,
-						396
+						841,
+						468
 					]
 				},
 				"orientation": {
@@ -1177,37 +922,20 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/28.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/85.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon"
 			},
-			"31": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
+			"86": {
 				"typename": {
 					"type": "string",
-					"value": "InstanceOfClassLink"
+					"value": "ObjectIcon"
 				},
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1307.505067564483,
-						367.85000009130744
+						1260,
+						445
 					]
 				},
 				"orientation": {
@@ -1233,39 +961,51 @@
 					"type": "map<string,*>",
 					"value": {
 						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+							"9": {
+								"width": {
+									"type": "double",
+									"value": 100
+								},
+								"height": {
+									"type": "double",
+									"value": 100
+								},
+								"cornerRadius": {
+									"type": "double",
+									"value": 5
 								},
 								"style": {
 									"type": "map<string,string>",
 									"value": {
 										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 5,
+										"arrow-start": "none",
+										"arrow-end": "none"
 									}
 								},
 								"mapper": {
 									"type": "code",
-									"value": ""
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
 								},
 								"parser": {
 									"type": "code",
 									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
 								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-1.502814196111558,3.376452081122588%",
-										"0;-73.98424809420169,-99.94298160123041%"
+										4,
+										2
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-88.06506769044726"
+									"value": 0
 								},
 								"scale": {
 									"type": "list<double>",
@@ -1273,13 +1013,6 @@
 										1,
 										1
 									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
 								}
 							}
 						},
@@ -1288,18 +1021,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/31.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/86.instance"
 				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/28.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/31.instance": "M1305,442L1307.505067564483,367.85000009130744",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/31.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/10.instance": "M1307.505053868379,367.8504054959746L1309.9999726324206,294.0008100803507"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink"
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon"
 			},
-			"32": {
+			"87": {
 				"typename": {
 					"type": "string",
 					"value": "ObjectRelationshipIcon"
@@ -1307,8 +1033,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1045.8578667949262,
-						373.5500000130439
+						1054,
+						474
 					]
 				},
 				"orientation": {
@@ -1386,11 +1112,551 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship/32.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship/87.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon"
 			},
-			"33": {
+			"88": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "TargetObjectLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						1001,
+						513
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-80.14914526735629,-99.92976157091807%",
+										"0;0.9972185643992475,-3.7473660589094204%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-177.8524145717015"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject/88.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/87.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/88.instance": "M1081,516L1001,513",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/88.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/85.instance": "M1000.8503750775404,512.9943890654079L921.000749375,510.0000281015625"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink"
+			},
+			"89": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "SourceObjectLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						1218.149999932396,
+						503.98604651791675
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject/89.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/87.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/89.instance": "M1132,512L1218.149999932396,503.98604651791675",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/89.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/86.instance": "M1218.1496510956572,503.98607896784586L1303.9993028664144,496.0000648496359"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink"
+			},
+			"90": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "InstanceOfClassLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						873,
+						402.3333282470703
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-14.968319646461737,-12.543811388937998%",
+										"0;-86.49756626798774,-99.21014462159981%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-97.20605700138333"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/90.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/85.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/90.instance": "M884,489.3333282470703L873,402.3333282470703",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/90.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/59.instance": "M872.9811859673373,402.18452635237537L862.0000861384023,315.3340095235251"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink"
+			},
+			"91": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "InstanceOfRelationshipLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						1087.9744681022296,
+						420.68545600581643
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-15.915999999634323,-17.014431463372766%",
+										"0;-68.67071230158183,-98.54191555870116%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-99.79620991747447"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship/91.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/87.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/91.instance": "M1100,490.3333282470703L1087.9744681022296,420.68545600581643",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/91.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/61.instance": "M1087.9745405330484,420.68587550097607L1076.0001447249433,351.3341664456997"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink"
+			},
+			"92": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "InstanceOfClassLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						1292,
+						389.8333282470703
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-15.93235254635806,-18.290791618299433%",
+										"0;-63.76746720804499,-98.31300494835841%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-100.53918372862834"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/92.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/86.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/92.instance": "M1304,454.3333282470703L1292,389.8333282470703",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/92.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/60.instance": "M1291.9726030163201,389.6860694597899L1280.0001676515762,325.33422937429333"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink"
+			},
+			"93": {
 				"typename": {
 					"type": "string",
 					"value": "ObjectIcon"
@@ -1398,8 +1664,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						862.8578667949262,
-						373.5500000130439
+						1267,
+						577.6670282470703
 					]
 				},
 				"orientation": {
@@ -1485,37 +1751,20 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/33.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/93.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon"
 			},
-			"34": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
+			"95": {
 				"typename": {
 					"type": "string",
-					"value": "SourceObjectLink"
+					"value": "ObjectIcon"
 				},
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1127.8578667949262,
-						269.5500000130439
+						865,
+						955.3333435058594
 					]
 				},
 				"orientation": {
@@ -1540,24 +1789,72 @@
 				"$contents": {
 					"type": "map<string,*>",
 					"value": {
-						"nodes": {},
+						"nodes": {
+							"9": {
+								"width": {
+									"type": "double",
+									"value": 100
+								},
+								"height": {
+									"type": "double",
+									"value": 100
+								},
+								"cornerRadius": {
+									"type": "double",
+									"value": 5
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 5,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Rectangle",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										4,
+										2
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							}
+						},
 						"edges": []
 					}
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject/34.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/95.instance"
 				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/32.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/34.instance": "M1045.8578667949262,373.5500000130439L1192.928933397463,332.77500000652196",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/34.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/28.instance": "M1192.928933397463,332.77500000652196L1258,396"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink"
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon"
 			},
-			"35": {
+			"96": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -1582,8 +1879,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1127.8578667949262,
-						269.5500000130439
+						681.291406441714,
+						685.5228990615379
 					]
 				},
 				"orientation": {
@@ -1635,13 +1932,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-282.8549624778768,-96.84330190777652%",
-										"0;-68.67626793673287,-24.927392073765926%"
+										"0;157.70755222883736,96.82272586227386%",
+										"0;-341.7289569723693,-25.00719409687871%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-165.5654492738434"
+									"value": "0;-14.481769321124787"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -1664,254 +1961,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/35.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/96.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/33.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/35.instance": "M862.8578667949262,373.5500000130439L986.9289333974631,233.27500000652196",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/35.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/9.instance": "M986.9289333974631,233.27500000652196L846,197"
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/95.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/96.instance": "M894,1012.6666564941406L676,890.6666564941406L681.291406441714,685.5228990615379",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/96.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/59.instance": "M681.291406441714,685.5228990615379L689,386.6666564941406L839.9992464344265,347.66685112365957"
 					}
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink"
 			},
-			"36": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "TargetObjectLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						1127.8578667949262,
-						269.5500000130439
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;-263.5386947823506,-93.08795256661313%",
-										"0;107.72351810266451,36.53263044123684%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;158.57233458969853"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject/36.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/32.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/36.instance": "M1045.8578667949262,373.5500000130439L1127.8578667949262,269.5500000130439",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/36.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/33.instance": "M1127.8578667949262,269.5500000130439L862.8578667949262,373.5500000130439"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink"
-			},
-			"37": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "InstanceOfRelationshipLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						1127.8578667949262,
-						269.5500000130439
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;-80.52265565889252,-74.5775615989867%",
-										"0;-66.56689754908444,-66.61972159915818%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;-138.22576178763435"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship/37.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/32.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/37.instance": "M1045.8578667949262,373.5500000130439L1088.928933397463,234.77500000652196",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/37.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/12.instance": "M1088.928933397463,234.77500000652196L1050,200"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink"
-			},
-			"38": {
+			"97": {
 				"typename": {
 					"type": "string",
 					"value": "ObjectRelationshipIcon"
@@ -1919,8 +1980,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						630.8879619414074,
-						394.7285714322983
+						1074,
+						624.6666564941406
 					]
 				},
 				"orientation": {
@@ -1998,11 +2059,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship/38.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship/97.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon"
 			},
-			"40": {
+			"99": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -2027,8 +2088,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						767.8879619414074,
-						250.72857143229825
+						1244.1441557631103,
+						651.6218513245253
 					]
 				},
 				"orientation": {
@@ -2059,18 +2120,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject/40.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject/99.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/38.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/40.instance": "M630.8879619414074,394.7285714322983L815.3729143681668,312.1392857226711",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/40.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/33.instance": "M815.3729143681668,312.1392857226711L862.8578667949262,373.5500000130439"
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/97.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/99.instance": "M1170,674.6666564941406L1244.1441557631103,651.6218513245253",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/99.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/93.instance": "M1244.1437813329758,651.6219677014589L1317.999251786837,628.6668890468807"
 					}
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink"
 			},
-			"43": {
+			"101": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -2090,13 +2151,13 @@
 				},
 				"typename": {
 					"type": "string",
-					"value": "InstanceOfRelationshipLink"
+					"value": "TargetObjectLink"
 				},
 				"position": {
 					"type": "list<double>",
 					"value": [
-						767.8879619414074,
-						250.72857143229825
+						1015,
+						613.1666564941406
 					]
 				},
 				"orientation": {
@@ -2148,13 +2209,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-119.46903949686919,-91.856524549209%",
-										"0;-47.05431045032989,-39.52693888654376%"
+										"0;-80.14274522954315,-84.43294201829336%",
+										"0;-46.12233167562158,-53.5824439731477%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-156.71722378800857"
+									"value": "0;-147.60015982608067"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -2177,18 +2238,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship/43.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject/101.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/38.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/43.instance": "M630.8879619414074,394.7285714322983L708.9439809707037,225.36428571614914",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/43.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/25.instance": "M708.9439809707037,225.36428571614914L650,200"
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/97.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/101.instance": "M1093,662.6666564941406L1015,613.1666564941406",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/101.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/85.instance": "M1014.8731026017432,613.0861254529392L937.0005525293827,563.6670071377873"
 					}
 				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink"
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink"
 			},
-			"44": {
+			"103": {
 				"typename": {
 					"type": "string",
 					"value": "ObjectIcon"
@@ -2196,8 +2257,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1251,
-						551
+						1284.5480350378812,
+						925.9223458151677
 					]
 				},
 				"orientation": {
@@ -2283,129 +2344,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/44.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/103.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon"
 			},
-			"45": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "InstanceOfClassLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						1438.6365550335845,
-						438.38493928760437
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;-111.89148891841137,-58.12381937190967%",
-										"0;-180.05998651272796,-81.37334712067347%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;-125.53767779197439"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/45.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/44.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/45.instance": "M1340,584L1465,483L1438.6365550335845,438.38493928760437",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/45.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/10.instance": "M1438.6365550335845,438.38493928760437L1335,263L1330,256"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink"
-			},
-			"46": {
+			"104": {
 				"typename": {
 					"type": "string",
 					"value": "ObjectRelationshipIcon"
@@ -2413,8 +2356,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						1082.5909364333693,
-						502.76927704108635
+						1054.5480350378812,
+						896.5890458151678
 					]
 				},
 				"orientation": {
@@ -2492,11 +2435,433 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship/46.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship/104.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon"
 			},
-			"47": {
+			"105": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "InstanceOfClassLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						982.548035037881,
+						376.5892458151677
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;214.30616068174402,84.39314245809884%",
+										"0;-140.96497151349166,-53.64510700937257%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-32.44237302485193"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/105.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/103.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/105.instance": "M1284.5480350378812,925.9223458151678L1090.7740175189406,307.79462290758386",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/105.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/60.instance": "M1090.7740175189406,307.79462290758386L1199,239"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink"
+			},
+			"106": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "InstanceOfRelationshipLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						982.548035037881,
+						376.5892458151677
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;39.77992416962638,39.65567754331373%",
+										"0;-102.17547291690028,-91.80101981231321%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-66.63689841383868"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship/106.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/104.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/106.instance": "M1054.5480350378812,896.5890458151678L1004.2740175189406,326.29462290758386",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/106.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/61.instance": "M1004.2740175189406,326.29462290758386L1026,276"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink"
+			},
+			"107": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "TargetObjectLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						982.548035037881,
+						376.5892458151677
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-113.62807339296876,-19.904470327296846%",
+										"0;579.5402765037836,97.99904112280772%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;101.4811014466353"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject/107.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/104.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/107.instance": "M1054.5480350378812,896.5890458151678L923.7740175189406,665.9612946605135",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/107.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/95.instance": "M923.7740175189406,665.9612946605135L865,955.3333435058594"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink"
+			},
+			"108": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "SourceObjectLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						982.548035037881,
+						376.5892458151677
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject/108.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/104.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/108.instance": "M1054.5480350378812,896.5890458151678L982.548035037881,376.5892458151677",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/108.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/103.instance": "M982.548035037881,376.5892458151677L1284.5480350378812,925.9223458151678"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink"
+			},
+			"109": {
 				"typename": {
 					"type": "string",
 					"value": "ObjectIcon"
@@ -2504,8 +2869,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						888.5909364333693,
-						554.7692770410863
+						1295.5480350378812,
+						804.5890458151678
 					]
 				},
 				"orientation": {
@@ -2591,433 +2956,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/47.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/109.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon"
 			},
-			"48": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "SourceObjectLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						1145.5909364333693,
-						301.76927704108635
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject/48.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/46.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/48.instance": "M1082.5909364333693,502.7692770410864L1198.2954682166846,426.38463852054315",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/48.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/44.instance": "M1198.2954682166846,426.38463852054315L1251,551"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink"
-			},
-			"49": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "InstanceOfClassLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						1145.5909364333693,
-						301.76927704108635
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;-300.91135509311994,-94.39443363813298%",
-										"0;-100.99349969556101,-33.01046649376694%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;-160.7248716519856"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/49.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/47.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/49.instance": "M888.5909364333693,554.7692770410863L995.7954682166846,249.38463852054318",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/49.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/9.instance": "M995.7954682166846,249.38463852054318L846,197"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink"
-			},
-			"50": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "TargetObjectLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						1145.5909364333693,
-						301.76927704108635
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;-254.19384292617974,-71.26307983911053%",
-										"0;255.85052319356436,70.15392684550564%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;135.44936944870798"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject/50.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/46.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/50.instance": "M1082.5909364333693,502.7692770410864L1145.5909364333693,301.76927704108635",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/50.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/47.instance": "M1145.5909364333693,301.76927704108635L888.5909364333693,554.7692770410863"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink"
-			},
-			"51": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "InstanceOfRelationshipLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						1145.5909364333693,
-						301.76927704108635
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;-98.50647890935625,-68.46354901841856%",
-										"0;-99.03073508034959,-72.88856189967392%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;-133.2069472580289"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship/51.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/46.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/51.instance": "M1082.5909364333693,502.7692770410864L1097.7954682166846,250.88463852054318",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/51.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/12.instance": "M1097.7954682166846,250.88463852054318L1050,200"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink"
-			},
-			"52": {
+			"110": {
 				"typename": {
 					"type": "string",
 					"value": "ObjectRelationshipIcon"
@@ -3025,8 +2968,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						616.8116961238198,
-						550.0769362974532
+						1079.5480350378812,
+						781.2556458151678
 					]
 				},
 				"orientation": {
@@ -3104,11 +3047,433 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship/52.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship/110.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon"
 			},
-			"53": {
+			"111": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "InstanceOfClassLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						982.548035037881,
+						376.5892458151677
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;214.30616068174402,84.39314245809884%",
+										"0;-140.96497151349166,-53.64510700937257%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-32.44237302485193"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/111.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/109.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/111.instance": "M1295.5480350378812,804.5890458151678L1090.7740175189406,307.79462290758386",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/111.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/60.instance": "M1090.7740175189406,307.79462290758386L1199,239"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink"
+			},
+			"112": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "InstanceOfRelationshipLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						982.548035037881,
+						376.5892458151677
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;39.77992416962638,39.65567754331373%",
+										"0;-102.17547291690028,-91.80101981231321%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;-66.63689841383868"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship/112.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/110.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/112.instance": "M1079.5480350378812,781.2556458151678L1004.2740175189406,326.29462290758386",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/112.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/61.instance": "M1004.2740175189406,326.29462290758386L1026,276"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink"
+			},
+			"113": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "TargetObjectLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						982.548035037881,
+						376.5892458151677
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"267": {
+								"segments": {
+									"type": "string",
+									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"fill": "#000000",
+										"opacity": 1,
+										"stroke-width": 1
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": ""
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										"0;-113.62807339296876,-19.904470327296846%",
+										"0;579.5402765037836,97.99904112280772%"
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": "0;101.4811014466353"
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								},
+								"$linkDecoratorInfo": {
+									"type": "map<string,double>",
+									"value": {
+										"xratio": 1,
+										"yoffset": -4
+									}
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject/113.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/110.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/113.instance": "M1079.5480350378812,781.2556458151678L923.7740175189406,665.9612946605135",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/113.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/95.instance": "M923.7740175189406,665.9612946605135L865,955.3333435058594"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink"
+			},
+			"114": {
+				"link-style": {
+					"type": "map<string,string>",
+					"value": {
+						"stroke": "#000000",
+						"stroke-dasharray": "",
+						"stroke-opacity": 1,
+						"stroke-width": 2
+					}
+				},
+				"arrowHead": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "custom"
+				},
+				"arrowTail": {
+					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
+					"value": "arrow-black"
+				},
+				"typename": {
+					"type": "string",
+					"value": "SourceObjectLink"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						982.548035037881,
+						376.5892458151677
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject/114.instance"
+				},
+				"$segments": {
+					"type": "map<string,list<string>>",
+					"value": {
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/110.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/114.instance": "M1079.5480350378812,781.2556458151678L982.548035037881,376.5892458151677",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/114.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/109.instance": "M982.548035037881,376.5892458151677L1295.5480350378812,804.5890458151678"
+					}
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink"
+			},
+			"115": {
 				"typename": {
 					"type": "string",
 					"value": "ObjectIcon"
@@ -3116,8 +3481,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						450.81169612381984,
-						484.07693629745324
+						1042.377272699888,
+						249.77813853844464
 					]
 				},
 				"orientation": {
@@ -3203,79 +3568,11 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/53.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/Object/115.instance"
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon"
 			},
-			"54": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "SourceObjectLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						810.8116961238198,
-						245.07693629745322
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject/54.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/52.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/54.instance": "M616.8116961238198,550.0769362974531L978.2013162785945,273.42310666926977",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink/54.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/47.instance": "M978.2013162785945,273.42310666926977L888.5909364333693,554.7692770410863"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/SourceObjectLink"
-			},
-			"55": {
+			"116": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -3300,8 +3597,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						810.8116961238198,
-						245.07693629745322
+						1042.377272699888,
+						249.77813853844464
 					]
 				},
 				"orientation": {
@@ -3353,13 +3650,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;-340.3720401781893,-99.01393380710618%",
-										"0;-44.116378945168975,-14.008601359236172%"
+										"0;-221.3913325665037,-99.999382248563%",
+										"0;3.221836751497875,-0.3514966653949941%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-171.9471764880197"
+									"value": "0;-179.7986068308962"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -3382,370 +3679,16 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/55.instance"
+					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass/116.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/53.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/55.instance": "M450.81169612381996,484.07693629745313L640.9058480619099,221.03846814872662",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/55.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/8.instance": "M640.9058480619099,221.03846814872662L471,197"
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/115.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/116.instance": "M1042.377272699888,249.77813853844464L931.688636349944,249.38906926922232",
+						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink/116.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassIcon/59.instance": "M931.688636349944,249.38906926922232L821,249"
 					}
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfClassLink"
-			},
-			"56": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "TargetObjectLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						810.8116961238198,
-						245.07693629745322
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;-357.78761191959654,-83.31168503610876%",
-										"0;242.33246740144426,55.309702010083306%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;146.42025797216058"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject/56.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/52.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/56.instance": "M616.8116961238198,550.0769362974531L810.8116961238198,245.07693629745322",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/56.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/53.instance": "M810.8116961238198,245.07693629745322L450.81169612381996,484.07693629745313"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink"
-			},
-			"57": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "InstanceOfRelationshipLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						810.8116961238198,
-						245.07693629745322
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;-161.89131873342103,-96.28867736148298%",
-										"0;-41.22538920299391,-26.99056524002852%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;-164.34134730146968"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship/57.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/52.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/57.instance": "M616.8116961238198,550.0769362974531L730.4058480619099,222.53846814872662",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink/57.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ClassRelationshipIcon/25.instance": "M730.4058480619099,222.53846814872662L650,200"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/InstanceOfRelationshipLink"
-			},
-			"58": {
-				"link-style": {
-					"type": "map<string,string>",
-					"value": {
-						"stroke": "#000000",
-						"stroke-dasharray": "",
-						"stroke-opacity": 1,
-						"stroke-width": 2
-					}
-				},
-				"arrowHead": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "custom"
-				},
-				"arrowTail": {
-					"type": "ENUM(circle-black,circle-black-large,circle-white,circle-white-large,diamond-black,diamond-black-large,diamond-white,diamond-white-large,triangle-black,triangle-black-large,triangle-white,triangle-white-large,arrow-black,arrow-black-large,arrow-empty,arrow-empty-large,custom)",
-					"value": "arrow-black"
-				},
-				"typename": {
-					"type": "string",
-					"value": "TargetObjectLink"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						200,
-						200
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"267": {
-								"segments": {
-									"type": "string",
-									"value": "m0,0 l10,4 l-10,4 l3,-4 z"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"fill": "#000000",
-										"opacity": 1,
-										"stroke-width": 1
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": ""
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Path",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										"0;252.88966559809074,-85.44750897480417%",
-										"0;287.4948366564453,51.94923685676972%"
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": "0;148.7017932570465"
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								},
-								"$linkDecoratorInfo": {
-									"type": "map<string,double>",
-									"value": {
-										"xratio": 1,
-										"yoffset": -4
-									}
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject/58.instance"
-				},
-				"$segments": {
-					"type": "map<string,list<string>>",
-					"value": {
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectRelationshipIcon/38.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/58.instance": "M630.8879619414074,394.7285714322983L720.8498290326136,319.90275386487576",
-						"/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink/58.instance--/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/ObjectIcon/53.instance": "M720.8498290326136,319.90275386487576L450.81169612381996,484.07693629745313"
-					}
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism.defaultIcons/TargetObjectLink"
 			}
 		},
 		"edges": [],
@@ -3755,25 +3698,10 @@
 	},
 	"asm": {
 		"nodes": {
-			"8": {
+			"59": {
 				"name": {
 					"type": "string",
-					"value": "Floor"
-				},
-				"id": {
-					"type": "integer",
-					"value": 1
-				},
-				"singleton": {
-					"type": "boolean",
-					"value": true
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Class"
-			},
-			"9": {
-				"name": {
-					"type": "string",
-					"value": "Room"
+					"value": ""
 				},
 				"id": {
 					"type": "integer",
@@ -3785,14 +3713,14 @@
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Class"
 			},
-			"10": {
+			"60": {
 				"name": {
 					"type": "string",
-					"value": "Cell"
+					"value": ""
 				},
 				"id": {
 					"type": "integer",
-					"value": 3
+					"value": 1
 				},
 				"singleton": {
 					"type": "boolean",
@@ -3800,7 +3728,7 @@
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Class"
 			},
-			"12": {
+			"61": {
 				"name": {
 					"type": "string",
 					"value": ""
@@ -3815,7 +3743,7 @@
 				},
 				"minTarget": {
 					"type": "float",
-					"value": 1
+					"value": -1
 				},
 				"maxTarget": {
 					"type": "float",
@@ -3823,348 +3751,327 @@
 				},
 				"id": {
 					"type": "integer",
-					"value": 15
+					"value": 9
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ClassRelationship"
 			},
-			"15": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/SourceClass"
-			},
-			"16": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/TargetClass"
-			},
-			"25": {
-				"name": {
-					"type": "string",
-					"value": ""
-				},
-				"minSource": {
-					"type": "float",
-					"value": -1
-				},
-				"maxSource": {
-					"type": "float",
-					"value": -1
-				},
-				"minTarget": {
-					"type": "float",
-					"value": 1
-				},
-				"maxTarget": {
-					"type": "float",
-					"value": -1
-				},
-				"id": {
-					"type": "integer",
-					"value": 14
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ClassRelationship"
-			},
-			"26": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/SourceClass"
-			},
-			"27": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/TargetClass"
-			},
-			"28": {
-				"id": {
-					"type": "integer",
-					"value": 6
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Object"
-			},
-			"31": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass"
-			},
-			"32": {
-				"id": {
-					"type": "integer",
-					"value": 12
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship"
-			},
-			"33": {
-				"id": {
-					"type": "integer",
-					"value": 8
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Object"
-			},
-			"34": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject"
-			},
-			"35": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass"
-			},
-			"36": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject"
-			},
-			"37": {
+			"62": {
 				"id": {
 					"type": "integer",
 					"value": 0
 				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship"
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ClassQuantityConstraint"
 			},
-			"38": {
-				"id": {
-					"type": "integer",
-					"value": 13
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship"
+			"63": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ConstraintClass"
 			},
-			"40": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject"
+			"64": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/TargetClass"
 			},
-			"43": {
-				"id": {
-					"type": "integer",
-					"value": 0
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship"
+			"65": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/SourceClass"
 			},
-			"44": {
+			"85": {
 				"id": {
 					"type": "integer",
 					"value": 4
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Object"
 			},
-			"45": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass"
-			},
-			"46": {
+			"86": {
 				"id": {
 					"type": "integer",
-					"value": 10
+					"value": 3
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Object"
+			},
+			"87": {
+				"id": {
+					"type": "integer",
+					"value": 8
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship"
 			},
-			"47": {
+			"88": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject"
+			},
+			"89": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject"
+			},
+			"90": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass"
+			},
+			"91": {
+				"id": {
+					"type": "integer",
+					"value": 0
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship"
+			},
+			"92": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass"
+			},
+			"93": {
 				"id": {
 					"type": "integer",
 					"value": 5
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Object"
 			},
-			"48": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject"
+			"95": {
+				"id": {
+					"type": "integer",
+					"value": 6
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Object"
 			},
-			"49": {
+			"96": {
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass"
 			},
-			"50": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject"
-			},
-			"51": {
-				"id": {
-					"type": "integer",
-					"value": 0
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship"
-			},
-			"52": {
-				"id": {
-					"type": "integer",
-					"value": 11
-				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship"
-			},
-			"53": {
+			"97": {
 				"id": {
 					"type": "integer",
 					"value": 7
 				},
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Object"
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship"
 			},
-			"54": {
+			"99": {
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject"
 			},
-			"55": {
-				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass"
-			},
-			"56": {
+			"101": {
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject"
 			},
-			"57": {
+			"103": {
+				"id": {
+					"type": "integer",
+					"value": 0
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Object"
+			},
+			"104": {
+				"id": {
+					"type": "integer",
+					"value": 0
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship"
+			},
+			"105": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass"
+			},
+			"106": {
 				"id": {
 					"type": "integer",
 					"value": 0
 				},
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship"
 			},
-			"58": {
+			"107": {
 				"$type": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject"
+			},
+			"108": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject"
+			},
+			"109": {
+				"id": {
+					"type": "integer",
+					"value": 0
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Object"
+			},
+			"110": {
+				"id": {
+					"type": "integer",
+					"value": 0
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/ObjectRelationship"
+			},
+			"111": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass"
+			},
+			"112": {
+				"id": {
+					"type": "integer",
+					"value": 0
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfRelationship"
+			},
+			"113": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/TargetObject"
+			},
+			"114": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/SourceObject"
+			},
+			"115": {
+				"id": {
+					"type": "integer",
+					"value": 0
+				},
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/Object"
+			},
+			"116": {
+				"$type": "/Formalisms/GenericFormalism/GenericFormalism/InstanceOfClass"
 			}
 		},
 		"edges": [
 			{
-				"src": "12",
-				"dest": "15"
+				"src": "62",
+				"dest": "63"
 			},
 			{
-				"src": "15",
-				"dest": "10"
+				"src": "63",
+				"dest": "61"
 			},
 			{
-				"src": "12",
-				"dest": "16"
+				"src": "61",
+				"dest": "64"
 			},
 			{
-				"src": "16",
-				"dest": "9"
+				"src": "64",
+				"dest": "59"
 			},
 			{
-				"src": "25",
-				"dest": "26"
+				"src": "61",
+				"dest": "65"
 			},
 			{
-				"src": "26",
-				"dest": "9"
+				"src": "65",
+				"dest": "60"
 			},
 			{
-				"src": "25",
-				"dest": "27"
+				"src": "87",
+				"dest": "88"
 			},
 			{
-				"src": "27",
-				"dest": "8"
+				"src": "88",
+				"dest": "85"
 			},
 			{
-				"src": "28",
-				"dest": "31"
+				"src": "87",
+				"dest": "89"
 			},
 			{
-				"src": "31",
-				"dest": "10"
+				"src": "89",
+				"dest": "86"
 			},
 			{
-				"src": "32",
-				"dest": "34"
+				"src": "85",
+				"dest": "90"
 			},
 			{
-				"src": "34",
-				"dest": "28"
+				"src": "90",
+				"dest": "59"
 			},
 			{
-				"src": "33",
-				"dest": "35"
+				"src": "87",
+				"dest": "91"
 			},
 			{
-				"src": "35",
-				"dest": "9"
+				"src": "91",
+				"dest": "61"
 			},
 			{
-				"src": "32",
-				"dest": "36"
+				"src": "86",
+				"dest": "92"
 			},
 			{
-				"src": "36",
-				"dest": "33"
+				"src": "92",
+				"dest": "60"
 			},
 			{
-				"src": "32",
-				"dest": "37"
+				"src": "95",
+				"dest": "96"
 			},
 			{
-				"src": "37",
-				"dest": "12"
+				"src": "96",
+				"dest": "59"
 			},
 			{
-				"src": "38",
-				"dest": "40"
+				"src": "97",
+				"dest": "99"
 			},
 			{
-				"src": "40",
-				"dest": "33"
+				"src": "99",
+				"dest": "93"
 			},
 			{
-				"src": "38",
-				"dest": "43"
+				"src": "97",
+				"dest": "101"
 			},
 			{
-				"src": "43",
-				"dest": "25"
+				"src": "101",
+				"dest": "85"
 			},
 			{
-				"src": "44",
-				"dest": "45"
+				"src": "103",
+				"dest": "105"
 			},
 			{
-				"src": "45",
-				"dest": "10"
+				"src": "105",
+				"dest": "60"
 			},
 			{
-				"src": "46",
-				"dest": "48"
+				"src": "104",
+				"dest": "106"
 			},
 			{
-				"src": "48",
-				"dest": "44"
+				"src": "106",
+				"dest": "61"
 			},
 			{
-				"src": "47",
-				"dest": "49"
+				"src": "104",
+				"dest": "107"
 			},
 			{
-				"src": "49",
-				"dest": "9"
+				"src": "107",
+				"dest": "95"
 			},
 			{
-				"src": "46",
-				"dest": "50"
+				"src": "104",
+				"dest": "108"
 			},
 			{
-				"src": "50",
-				"dest": "47"
+				"src": "108",
+				"dest": "103"
 			},
 			{
-				"src": "46",
-				"dest": "51"
+				"src": "109",
+				"dest": "111"
 			},
 			{
-				"src": "51",
-				"dest": "12"
+				"src": "111",
+				"dest": "60"
 			},
 			{
-				"src": "52",
-				"dest": "54"
+				"src": "110",
+				"dest": "112"
 			},
 			{
-				"src": "54",
-				"dest": "47"
+				"src": "112",
+				"dest": "61"
 			},
 			{
-				"src": "53",
-				"dest": "55"
+				"src": "110",
+				"dest": "113"
 			},
 			{
-				"src": "55",
-				"dest": "8"
+				"src": "113",
+				"dest": "95"
 			},
 			{
-				"src": "52",
-				"dest": "56"
+				"src": "110",
+				"dest": "114"
 			},
 			{
-				"src": "56",
-				"dest": "53"
+				"src": "114",
+				"dest": "109"
 			},
 			{
-				"src": "52",
-				"dest": "57"
+				"src": "115",
+				"dest": "116"
 			},
 			{
-				"src": "57",
-				"dest": "25"
-			},
-			{
-				"src": "38",
-				"dest": "58"
-			},
-			{
-				"src": "58",
-				"dest": "53"
+				"src": "116",
+				"dest": "59"
 			}
 		],
 		"metamodels": [
